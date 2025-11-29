@@ -14,7 +14,7 @@ class Factorial{
 
             }
             if (num == 0){
-                throw new IllegalArgumentException("the argument cannot be 0 ");
+                throw new IllegalArgumentException("the argument cannot be 0 (manual Throw)");
             }
             int fact = factorial(num);
             System.out.println(fact);
